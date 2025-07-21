@@ -2,7 +2,7 @@ import { useState } from 'react'
 import DataTable from './components/DataTable';
 import type { DataRow } from './components/DataTable';
 import PageSizeSelector from './components/PageSizeSelector';
-import data from './data.json';
+import data from './data2.json';
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
