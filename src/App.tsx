@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import DataTable from './components/DataTable';
 import type { DataRow } from './components/DataTable';
+import PageSizeSelector from './components/PageSizeSelector';
 import data from './data.json';
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
@@ -8,11 +9,7 @@ import './App.css'
 
 function App() {
 
-  const [pageSize, setPageSize] = useState(5); // default 5 rows per page
-
-  const handlePageSizeChange = (e: React.ChangeEvent<HTMLSelectElement>) => {
-    setPageSize(Number(e.target.value));
-  };
+  const [pageSize, setPageSize] = useState(7); // default 7 rows per page
 
   return (
     <>
@@ -28,6 +25,7 @@ function App() {
       <div className="card">
         <div className="container mt-5">
           <h3>Lightweight Datatable / sortable headers / pagination</h3>
+          <PageSizeSelector pageSize={pageSize} onPageSizeChange={setPageSize} />
           <DataTable data={data as DataRow[]} pageSize={pageSize} />
         </div>
       </div>
