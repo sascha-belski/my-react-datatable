@@ -8,7 +8,7 @@ export interface DataRow {
 
 interface DataTableProps {
   data: DataRow[];
-  pageSize?: number;
+  pageSize: number;
 }
 
 type SortKey = string | null;
