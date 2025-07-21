@@ -14,7 +14,7 @@ This is a lightweight and customizable datatable built with React, TypeScript, V
 ## Getting Started
 
 ```bash
-git clone https://github.com/yourusername/my-react-datatable.git
+git clone https://github.com/sascha-belski/my-react-datatable.git
 cd my-react-datatable
 npm install
 npm run dev
