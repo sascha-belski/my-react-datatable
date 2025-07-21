@@ -1,10 +1,18 @@
 import { useState } from 'react'
+import DataTable from './components/DataTable';
+import type { DataRow } from './components/DataTable';
+import data from './data.json';
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
+
+  const [pageSize, setPageSize] = useState(5); // default 5 rows per page
+
+  const handlePageSizeChange = (e: React.ChangeEvent<HTMLSelectElement>) => {
+    setPageSize(Number(e.target.value));
+  };
 
   return (
     <>
@@ -18,12 +26,10 @@ function App() {
       </div>
       <h1>Vite + React</h1>
       <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
+        <div className="container mt-5">
+          <h3>Lightweight Datatable / sortable headers / pagination</h3>
+          <DataTable data={data as DataRow[]} pageSize={pageSize} />
+        </div>
       </div>
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more

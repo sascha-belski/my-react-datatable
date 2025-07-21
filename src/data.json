@@ -1,0 +1,22 @@
+[
+  { "id": 1, "name": "Coq au Vin", "price": 18.5, "calories": 550, "rating": 4.7 },
+  { "id": 2, "name": "Bouillabaisse", "price": 22.0, "calories": 480, "rating": 4.6 },
+  { "id": 3, "name": "Ratatouille", "price": 14.0, "calories": 320, "rating": 4.5 },
+  { "id": 4, "name": "Quiche Lorraine", "price": 12.5, "calories": 400, "rating": 4.3 },
+  { "id": 5, "name": "Cassoulet", "price": 20.0, "calories": 600, "rating": 4.4 },
+  { "id": 6, "name": "Duck Confit", "price": 24.0, "calories": 650, "rating": 4.8 },
+  { "id": 7, "name": "French Onion Soup", "price": 9.5, "calories": 300, "rating": 4.2 },
+  { "id": 8, "name": "Salade Niçoise", "price": 13.0, "calories": 350, "rating": 4.1 },
+  { "id": 9, "name": "Beef Bourguignon", "price": 21.5, "calories": 620, "rating": 4.7 },
+  { "id": 10, "name": "Croque Monsieur", "price": 11.0, "calories": 450, "rating": 4.0 },
+  { "id": 11, "name": "Crepes Suzette", "price": 8.0, "calories": 320, "rating": 4.6 },
+  { "id": 12, "name": "Tarte Tatin", "price": 7.5, "calories": 410, "rating": 4.5 },
+  { "id": 13, "name": "Moules Marinières", "price": 19.0, "calories": 280, "rating": 4.3 },
+  { "id": 14, "name": "Escargots de Bourgogne", "price": 15.0, "calories": 260, "rating": 4.2 },
+  { "id": 15, "name": "Steak Frites", "price": 18.0, "calories": 700, "rating": 4.4 },
+  { "id": 16, "name": "Pot-au-feu", "price": 16.5, "calories": 580, "rating": 4.1 },
+  { "id": 17, "name": "Duck à l'Orange", "price": 23.0, "calories": 640, "rating": 4.7 },
+  { "id": 18, "name": "Gratin Dauphinois", "price": 10.0, "calories": 400, "rating": 4.0 },
+  { "id": 19, "name": "Soupe au Pistou", "price": 11.5, "calories": 330, "rating": 4.2 },
+  { "id": 20, "name": "Clafoutis", "price": 7.0, "calories": 360, "rating": 4.3 }
+]
